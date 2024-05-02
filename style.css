@@ -38,6 +38,9 @@
 .mt-10{
     margin-top: 10px;
 }
+.mt-20{
+    margin-top: 20px;
+}
 .mt-30{
     margin-top: 30px;
 }
@@ -55,4 +58,21 @@
     padding: 8px 18px;
     border-radius: 30px;
     border: solid 2px #3274CC;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.content-1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.content-web{
+    margin-top: 100px;
+}
+.judul{
+    text-align: center;
 }
