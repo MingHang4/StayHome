@@ -1,57 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0px;
     font-family: "Poppins", sans-serif;
 }
+
 .container {
     padding-left: 80px;
     padding-right: 80px;
 }
+
 .logo {
     width: 150px;
 }
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: white;
 }
-.links a{
+
+.links a {
     padding: 1em;
     text-decoration: none;
     color: black;
 }
+
 .donate {
     background-color: #3DB5E2;
     border-radius: 2em;
 }
+
 .links .donate {
-    padding:  12px 30px;
+    padding: 12px 30px;
     color: white;
 }
+
 .hero {
     background-color: #E1F7FF;
     color: #3274CC;
     height: 80vh;
     padding-top: 80px;
 }
-.mt-10{
+
+.mt-10 {
     margin-top: 10px;
 }
-.mt-20{
+
+.mt-20 {
     margin-top: 20px;
 }
-.mt-30{
+
+.mt-30 {
     margin-top: 30px;
 }
-.btn-1{
+.mt-40{
+    margin-top: 40px;
+}
+.btn-1 {
     text-decoration: none;
     color: white;
     background-color: #3274CC;
     padding: 10px 20px;
     border-radius: 30px;
 }
-.btn-2{
+
+.btn-2 {
     text-decoration: none;
     color: #3274CC;
     background-color: transparent;
@@ -59,20 +74,73 @@
     border-radius: 30px;
     border: solid 2px #3274CC;
 }
-.hero-content{
+
+.hero-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
 }
-.content-1{
+
+.content-1 {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.content-web{
+
+.content-web {
     margin-top: 100px;
 }
-.judul{
+
+.judul {
     text-align: center;
+    margin-top: 100px;
+}
+
+.card {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.img-card-1 {
+    padding: 16px;
+    border-radius: 16px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px #00000040;
+}
+
+.img-card-2 {
+    padding: 16px;
+    border-radius: 16px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px #00000040;
+}
+
+.img-card-3 {
+    padding: 16px;
+    border-radius: 16px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px #00000040;
+}
+
+.footer {
+    background-color: #E1F7FF;
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.content-footer {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-footer .content-footer-1 {
+    margin-left: 80vh;
 }
